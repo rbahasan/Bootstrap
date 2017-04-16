@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="Resources/bootstrap/css/bootstrap.min.css"></link>
+    <script src="Resources/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        tr:nth-child(odd)> td{
+            background: lightgoldenrodyellow;
+        }
+        tr:nth-child(even)>td {
+            background: lightcyan;
+        }
+
+        .pagination{
+
+        }
+
+        .pagination{
+            margin: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div class="container">
+
+<table class="table table-striped table-bordered table-hover">
+    <h3 align="center">BookTitle-list</h3>
+    <thead>
+    <tr>
+        <th>Serial</th>
+        <th>ID</th>
+        <th>Book Title</th>
+        <th>Author Name</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>1</td>
+        <td>5</td>
+        <td>PHP-Book Title#1</td>
+        <td>Humayun Ahmed</td>
+        <td>
+            <input class="btn btn-success" type="button" value="View">
+            <input class="btn btn-primary" type="button" value="Edit">
+            <input class="btn btn-danger" type="button" value="Delete">
+            <input class="btn btn-default" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>6</td>
+        <td>PHP-Book Title#2</td>
+        <td>Abir Khan</td>
+        <td>
+            <input class="btn btn-success" type="button" value="View">
+            <input class="btn btn-primary" type="button" value="Edit">
+            <input class="btn btn-danger" type="button" value="Delete">
+            <input class="btn btn-default" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>7</td>
+        <td>PHP-Book Title#3</td>
+        <td>Tushar Ahmed</td>
+        <td>
+
+            <input class="btn btn-success" type="button" value="View">
+            <input class="btn btn-primary" type="button" value="Edit">
+            <input class="btn btn-danger" type="button" value="Delete">
+            <input class="btn btn-default" type="button" value="Trash">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <ul class="pagination">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </td>
+
+    </tr>
+    <tr>
+            <td colspan="5"><input class="btn btn-primary" type="button" value="Add New Book Title">
+            <input class="btn btn-success" type="button" value="View Trash Items">
+            <input class="btn btn-default" type="button" value="Download as PDF">
+            <input class="btn btn-danger" type="button" value="Download as EXCEL File">
+        </td>
+
+    </tr>
+    </tbody>
+</table>
+</div>
+
+</body>
+</html>
